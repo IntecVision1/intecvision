@@ -22,8 +22,8 @@ body { background: var(--bg); color: var(--white); font-family: var(--font-sans)
 
 /* NAV */
 nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 3rem; border-bottom: 1px solid var(--border); backdrop-filter: blur(20px) saturate(180%); background: rgba(12,15,18,0.75); transition: background 0.3s; }
-.nav-logo { display: flex; align-items: center; text-decoration: none; }
-.nav-logo img { height: 64px; width: auto; object-fit: contain; }
+.nav-logo,jpeg { display: flex; align-items: center; text-decoration: none; }
+.nav-logo.jpeg img { height: 64px; width: auto; object-fit: contain; }
 .nav-right { display: flex; align-items: center; gap: 1rem; }
 .nav-contact-item { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; color: var(--muted); text-decoration: none; padding: 0.4rem 0.8rem; border: 1px solid var(--border); border-radius: 100px; transition: all 0.2s; white-space: nowrap; }
 .nav-contact-item:hover { color: var(--white); border-color: rgba(255,255,255,0.2); background: var(--surface); }
